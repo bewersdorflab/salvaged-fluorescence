@@ -13,9 +13,7 @@ example1.m: this example shows how to estimate the photon number in the salvaged
 example2.m: this example shows how to perform color assignment based on the photon numbers in the conventional and salvaged fluorescence channel.
 
 # Optional step
-Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers.
-
-It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data.
+Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers. It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data.
 
 The optional step uses a GPU single-molecule fitter from "fit3Dcspline"(https://github.com/jries/fit3Dcspline; https://www.nature.com/articles/nmeth.4661)
 The GPU fitter requires:
