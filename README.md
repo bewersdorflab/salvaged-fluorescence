@@ -16,6 +16,7 @@ example2.m: this example shows how to perform color assignment based on the phot
 Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers. It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data.
 
 The optional step uses a GPU single-molecule fitter from "fit3Dcspline"(https://github.com/jries/fit3Dcspline; https://www.nature.com/articles/nmeth.4661)
+
 The GPU fitter requires:
   - Microsoft Windows 7 or newer, 64-bit
   - CUDA capable graphics card, minimum Compute Capability 3.0
@@ -34,9 +35,11 @@ Fitting results:
   - data_example2: this is the analyzed result (provided by the authors) of the full dataset (150,000 frames) that used in example2.m to perform color assignment and reconstruction 
 
 Additonal information of the dataset
+
 Labeling: 
   - Channel 1: overexpressed GFP-Sec61b labeled with anti-GFP primary antibody and CF660C conjugated secondary antibody
   - Chennel 2: anti-a-tubulin primary antibody and AF647 conjugated secondary antibody
+  
 Imaging conditions: 
   - 200 fps 
   - 642 nm laser at 12.5 kW/cm2 
