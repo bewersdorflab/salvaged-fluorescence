@@ -39,7 +39,7 @@ Additonal information of the dataset
     - Chennel 2: anti-a-tubulin primary antibody and AF647 conjugated secondary antibody
   - Imaging conditions: 
     - 200 fps 
-    - 642 nm laser at 12.5 kW/cm2 
+    - 642 nm laser at 15 kW/cm2 
     - only the lower objective was used to collect the fluorescence
 
 # Contact
