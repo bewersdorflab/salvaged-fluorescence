@@ -14,6 +14,7 @@ example2.m: this example shows how to perform color assignment based on the phot
 
 # Optional step
 Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers.
+
 It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data.
 
 The optional step uses a GPU single-molecule fitter from "fit3Dcspline"(https://github.com/jries/fit3Dcspline; https://www.nature.com/articles/nmeth.4661)
@@ -25,6 +26,7 @@ The GPU fitter requires:
 # Data required
 An example two-color dataset of a COS-7 cell imaged with the salvaged fluorescence approach. 
 Download the dataset from: https://www.dropbox.com/sh/qw18jf3qcma1pbj/AACVAfhZ0WxM87vW-5VgrvIaa?dl=0
+
 Raw images (3000 frames):  
   - Conventional_fluorescence.tif: images in the conventional fluorescence channel, acuiqred by a sCMOS camara
   - Salvaged_fluorescence.tif: images in the salvaged fluorescence channel, acuiqred by an EMCCD camara
