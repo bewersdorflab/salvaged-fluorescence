@@ -12,7 +12,6 @@ end
 %% read images of the salvaged fluorescence channel
 filename='Salvaged_fluorescence.tif';
 Im=single(tiffread(filename));
-Im=imrotate(Im,90);
 EMgain=200;                 % electron-multiplying(EM) gain of EMCCD
 ADU=12;                     % ADU converstion factor, provided by the manufacture
 Im=Im*ADU/EMgain;           % convert counts to photons
