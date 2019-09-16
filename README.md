@@ -9,6 +9,7 @@ This package assigns single-molecule identities based on the salvaged fluorescen
   
 # How to run
 example1.m: this example shows how to estimate the photon number in the salvaged fluorescence channel.
+
 example2.m: this example shows how to perform color assignment based on the photon numbers in the conventional and salvaged fluorescence channel.
 
 # Optional step
