@@ -23,6 +23,7 @@ The GPU fitter requires:
 
 # Data required
 An example two-color dataset of a COS-7 cell imaged with the salvaged fluorescence approach. 
+
 Download the dataset from: https://www.dropbox.com/sh/qw18jf3qcma1pbj/AACVAfhZ0WxM87vW-5VgrvIaa?dl=0
 
 Raw images (3000 frames):  
