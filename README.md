@@ -35,15 +35,13 @@ Fitting results:
   - data_example2: this is the analyzed result (provided by the authors) of the full dataset (150,000 frames) that used in example2.m to perform color assignment and reconstruction 
 
 Additonal information of the dataset
-
-Labeling: 
-  - Channel 1: overexpressed GFP-Sec61b labeled with anti-GFP primary antibody and CF660C conjugated secondary antibody
-  - Chennel 2: anti-a-tubulin primary antibody and AF647 conjugated secondary antibody
-  
-Imaging conditions: 
-  - 200 fps 
-  - 642 nm laser at 12.5 kW/cm2 
-  - only the lower objective was used to collect the fluorescence
+  - Labeling: 
+    - Channel 1: overexpressed GFP-Sec61b labeled with anti-GFP primary antibody and CF660C conjugated secondary antibody
+    - Chennel 2: anti-a-tubulin primary antibody and AF647 conjugated secondary antibody
+  - Imaging conditions: 
+    - 200 fps 
+    - 642 nm laser at 12.5 kW/cm2 
+    - only the lower objective was used to collect the fluorescence
 
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
