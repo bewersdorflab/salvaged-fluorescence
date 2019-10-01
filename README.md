@@ -1,11 +1,19 @@
 # SF_color_assignment
 This package assigns single-molecule identities based on the salvaged fluorescence approach.
 
+# Current version
+  - 1.0
+
 # Requirements
   - Microsoft Windows 7 or newer, 64-bit
   - Matlab R2017b or newer  
     - Curve Fitting Toolbox
     - Optimization Toolbox
+    
+# Installation
+  - Download and install Matlab of the right version (30-60 min)
+  - Download the code to your computer (a few seconds)
+  - Start Matlab and run the code
   
 # How to run
 example1.m: this example shows how to estimate the photon number in the salvaged fluorescence channel.
@@ -13,7 +21,7 @@ example1.m: this example shows how to estimate the photon number in the salvaged
 example2.m: this example shows how to perform color assignment based on the photon numbers in the conventional and salvaged fluorescence channel.
 
 # Optional step
-Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers. It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data.
+Conventional_fitting.m: this script shows how to perform single-molecule fitting in the conventional fluorescence channel and estimate the positions and photon numbers. It saves the fitting result as "data_example1.mat", which will be loaded in example1.m. If the fitting result does not exist, it will run this script automatically to generate the data. 
 
 The optional step uses a GPU single-molecule fitter from "fit3Dcspline"(https://github.com/jries/fit3Dcspline; https://www.nature.com/articles/nmeth.4661)
 
@@ -41,6 +49,22 @@ Additonal information of the dataset
     - 200 fps 
     - 642 nm laser at 15 kW/cm2 
     - only the lower objective was used to collect the fluorescence
+
+# Testing enviroments
+  - Microsoft Windows 10 64-bit
+  - Matlab 2017b
+  - NVIDIA GeForce GTX 1080 Ti
+  - CUDA v4.2
+
+# Run time
+  - Conventional_fitting.m: 35 seconds
+  - example1.m: 11 seconds
+  - example2.m: 115 seconds
+
+# Expected output
+  - Conventional_fitting.m: this script saves the fitting result as "data_example1.mat" 
+  - example1.m: this script will display a scatter plot showing the intensity of of single molecules in the conventional and ssalvaged fluorescence channels. The plot is similar to Figure 1D in the manuscript.
+  - example2.m: this script will display a bined 2D intensity histogram of AF647 and CF660C (similar to Supplementary Figure S4G) and the overlaid image of ER and microtubules (the same data shown in Supplementary Figure S13D).
 
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
