@@ -53,7 +53,8 @@ Additonal information of the dataset
 # Testing enviroments
   - Microsoft Windows 10 64-bit
   - Matlab 2017b
-  - NVIDIA GeForce GTX 1080 Ti
+  - CPU: Intel Core i7-6850K
+  - GPU: NVIDIA GeForce GTX 1080 Ti (Driver version: 391.01)
   - CUDA v4.2
 
 # Tested run time
