@@ -68,10 +68,10 @@ Additonal information of the dataset
   - example2.m: this script will display a bined 2D intensity histogram of AF647 and CF660C (similar to Supplementary Fig. S4G) and the overlaid image of ER and microtubules (the same data shown in Supplementary Fig. S13D).
 
 # How to run on your data
- - save the images in the same format as the demo dataset
- - change the file names accodringly in the Matlab code
- - it requires a resgistration file between the two channels by imaging fluorescent beads
- - follow above instructions to run the code
+ - Save the images in the same format as the demo dataset
+ - Change the file names accodringly in the Matlab code
+ - It requires a resgistration file between the two channels by imaging fluorescent beads
+ - Follow above instructions to run the code
 
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
