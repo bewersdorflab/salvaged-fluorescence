@@ -1,6 +1,6 @@
 % this example shows how to perform color assignment based on the photon
 % numbers in the conventional and salvaged fluorescence channel
-%% load example data set, the same data shown in Supplementary Fig. 13A
+%% load example data set, the same data shown in Supplementary Fig. 13D
 clear
 clc
 load('data_example2.mat');
