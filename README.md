@@ -63,8 +63,8 @@ Additonal information of the dataset
 
 # Expected output
   - Conventional_fitting.m: this script saves the fitting result as "data_example1.mat" 
-  - example1.m: this script will display a scatter plot showing the intensity of of single molecules in the conventional and ssalvaged fluorescence channels. The plot is similar to Figure 1D in the manuscript.
-  - example2.m: this script will display a bined 2D intensity histogram of AF647 and CF660C (similar to Supplementary Figure S4G) and the overlaid image of ER and microtubules (the same data shown in Supplementary Figure S13D).
+  - example1.m: this script will display a scatter plot showing the intensity of of single molecules in the conventional and ssalvaged fluorescence channels. The plot is similar to Fig. 1D in the manuscript.
+  - example2.m: this script will display a bined 2D intensity histogram of AF647 and CF660C (similar to Supplementary Fig. S4G) and the overlaid image of ER and microtubules (the same data shown in Supplementary Fig. S13D).
 
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
