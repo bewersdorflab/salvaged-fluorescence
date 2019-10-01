@@ -70,7 +70,7 @@ Additonal information of the dataset
 # How to run on your data
  - save the images in the same format as the demo dataset
  - change the file names accodringly in the Matlab code
- - you need to generate a resgistration file betwwen the two channels by imaging fluorescent beads
+ - you need to generate a resgistration file between the two channels by imaging fluorescent beads
  - follow above instructions to run the code
 
 # Contact
