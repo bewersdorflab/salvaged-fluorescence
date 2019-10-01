@@ -67,6 +67,12 @@ Additonal information of the dataset
   - example1.m: this script will display a scatter plot showing the intensity of of single molecules in the conventional and ssalvaged fluorescence channels. The plot is similar to Fig. 1D in the manuscript.
   - example2.m: this script will display a bined 2D intensity histogram of AF647 and CF660C (similar to Supplementary Fig. S4G) and the overlaid image of ER and microtubules (the same data shown in Supplementary Fig. S13D).
 
+# How to run on your data
+ - save the images in the same format as the demo dataset
+ - change the file names accodringly in the Matlab code
+ - you need to generate a resgistration file betwwen the two channels by imaging fluorescent beads
+ - follow above instructions to run the code
+
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
 
