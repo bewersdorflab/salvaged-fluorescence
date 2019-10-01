@@ -56,7 +56,7 @@ Additonal information of the dataset
   - NVIDIA GeForce GTX 1080 Ti
   - CUDA v4.2
 
-# Run time
+# Tested run time
   - Conventional_fitting.m: 35 seconds
   - example1.m: 11 seconds
   - example2.m: 115 seconds
