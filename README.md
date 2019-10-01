@@ -76,10 +76,10 @@ Additonal information of the dataset
 # Contact
 For any questions / comments about this software, please contact [Bewersdorf Lab](http://www.bewersdorflab.org/).
 
-The package is licenced under the [GNU GPL](https://www.gnu.org/licenses/). 
-
 # Copyright and Software License
 Copyright (c) 2019 Bewersdorf Lab, Yale Univeristy School of Medcine, USA.
+
+The package is licenced under the [GNU GPL](https://www.gnu.org/licenses/). 
 
 # How to cite SF_color_assignment
 If you use SF_color_assignment to process your data, please, cite our [paper](https://www.biorxiv.org/content/10.1101/613174v1):
